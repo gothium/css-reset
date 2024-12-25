@@ -1,0 +1,45 @@
+{
+  "name": "@gothium/css-reset",
+  "version": "1.0.0",
+  "description": "Gothium CSS Reset: A powerful yet lightweight CSS reset to normalize styles across all browsers, ensuring consistency and simplicity in web design. This universal CSS baseline provides a solid foundation for any project by eliminating browser inconsistencies.",
+  "keywords": [
+    "css reset",
+    "css",
+    "reset",
+    "baseline",
+    "universal",
+    "style",
+    "browser",
+    "style"
+  ],
+  "homepage": "https://github.com/gothium/css-reset#readme",
+  "bugs": {
+    "url": "https://github.com/gothium/css-reset/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gothium/css-reset.git"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "gothium@tuta.io",
+    "name": "Gothium",
+    "url": "https://gothium.com/"
+  },
+  "funding": "https://github.com/sponsors/gothium",
+  "type": "module",
+  "main": "reset.css",
+  "files": [
+    "reset.min.css"
+  ],
+  "scripts": {
+    "dev": "lightningcss-cli --minify --bundle --targets \">= 0.25%\" reset.css -o reset.min.css",
+    "build": "lightningcss --minify --bundle --targets \">= 0.25%\" reset.css -o reset.min.css"
+  },
+  "devDependencies": {
+    "lightningcss": "^1.28.2"
+  },
+  "dependencies": {
+    "lightningcss-cli": "^1.28.2"
+  }
+}
