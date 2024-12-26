@@ -40,3 +40,10 @@ ol[role='list'] {
   /* Remove default padding-inline-start */
   padding-inline-start: 0;
 }
+
+hr {
+  /* Change border style to "solid" from "inset" */
+  border-style: solid;
+  /* Fix color inhering on Firefox */
+  color: inherit;
+}
