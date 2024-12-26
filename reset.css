@@ -23,3 +23,12 @@ h4 {
   /* Set line height as 1.2 (normal) instead of inhereted value from body element 1.5 */
   line-height: 1.2;
 }
+
+button,
+input,
+select,
+textarea {
+  /* Inherit "font-family" and "font-size" from "body" */
+  font-family: inherit;
+  font-size: inherit;
+}
