@@ -10,4 +10,6 @@ body {
   tab-size: 4;
   /* Remove default margin: 8px */
   margin: 0;
+  /* Set system's font family as default */
+  font-family: system-ui, sans-serif;
 }
