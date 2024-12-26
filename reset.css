@@ -47,3 +47,12 @@ hr {
   /* Fix color inhering on Firefox */
   color: inherit;
 }
+
+canvas,
+img,
+video {
+  /* Change display type from "inline" to "block" */
+  display: block;
+  /* Set "max-width: 100%" to get rid of overflow issues */
+  max-width: 100%;
+}
