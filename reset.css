@@ -63,3 +63,13 @@ summary {
   /* Interactive elements should be pointed */
   cursor: pointer;
 }
+
+table {
+  /* Change "border-collapse" value from "seperate" to "collapse" */
+  border-collapse: collapse;
+}
+
+th {
+  /* Change "text-align" value from "center" to "start" */
+  text-align: start;
+}
