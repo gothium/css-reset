@@ -32,3 +32,11 @@ textarea {
   font-family: inherit;
   font-size: inherit;
 }
+
+ul[role='list'],
+ol[role='list'] {
+  /* Remove default marker */
+  list-style-type: none;
+  /* Remove default padding-inline-start */
+  padding-inline-start: 0;
+}
