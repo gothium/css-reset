@@ -1,0 +1,6 @@
+/* Use smarter box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
