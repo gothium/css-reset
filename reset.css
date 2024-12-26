@@ -8,4 +8,6 @@
 body {
   /* Set the width of tab character as 4 space character instead of default value 8 */
   tab-size: 4;
+  /* Remove default margin: 8px */
+  margin: 0;
 }
