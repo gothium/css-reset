@@ -56,3 +56,10 @@ video {
   /* Set "max-width: 100%" to get rid of overflow issues */
   max-width: 100%;
 }
+
+button,
+select,
+summary {
+  /* Interactive elements should be pointed */
+  cursor: pointer;
+}
