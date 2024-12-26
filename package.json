@@ -33,13 +33,9 @@
     "reset.min.css"
   ],
   "scripts": {
-    "dev": "lightningcss-cli --minify --bundle --targets \">= 0.25%\" reset.css -o reset.min.css",
-    "build": "lightningcss --minify --bundle --targets \">= 0.25%\" reset.css -o reset.min.css"
+    "build": "lightningcss --minify --bundle --targets \"> 0.7%, not dead\" reset.css -o reset.min.css"
   },
   "devDependencies": {
-    "lightningcss": "^1.28.2"
-  },
-  "dependencies": {
     "lightningcss-cli": "^1.28.2"
   }
 }
