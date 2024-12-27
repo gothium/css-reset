@@ -1,4 +1,4 @@
-![NPM Version](https://img.shields.io/npm/v/%40gothium%2Fcss-reset)
+[![NPM Version](https://img.shields.io/npm/v/%40gothium%2Fcss-reset)](https://www.npmjs.com/package/@gothium/css-reset)
 
 # Gothium CSS Reset
 
@@ -21,9 +21,13 @@ You can install and build the Gothium CSS Reset using various package managers. 
 
 ### UNPKG (via CDN)
 
+#### In HTML
+
 ```html
 <link rel="stylesheet" href="https://unpkg.com/@gothium/css-reset">
 ```
+
+#### In CSS
 
 ```css
 @import 'https://unpkg.com/@gothium/css-reset';
@@ -49,10 +53,6 @@ deno install @gothium/css-reset
 ```
 
 #### Usage
-
-```css
-@import 'node_modules/@gothium/css-reset/reset.css';
-```
 
 ```js
 import '@gothium/css-reset';
