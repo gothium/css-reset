@@ -28,7 +28,7 @@
   },
   "funding": "https://github.com/sponsors/gothium",
   "type": "module",
-  "main": "reset.css",
+  "main": "reset.min.css",
   "files": [
     "reset.min.css"
   ],
